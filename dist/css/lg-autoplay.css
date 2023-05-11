@@ -5,7 +5,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 1083;
+  z-index: 9000083;
   opacity: 0;
   will-change: opacity;
   -webkit-transition: opacity 0.08s ease 0s;

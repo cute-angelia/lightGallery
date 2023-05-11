@@ -75,7 +75,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 9000050;
   text-align: left;
   opacity: 0.001;
   outline: none;
@@ -200,7 +200,7 @@
 }
 
 .lg-outer .lg-item.lg-current {
-  z-index: 1060;
+  z-index: 9000060;
 }
 
 .lg-outer .lg-object {
@@ -246,7 +246,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1040;
+  z-index: 9000040;
   background-color: #000;
   opacity: 0;
   will-change: auto;
@@ -355,11 +355,11 @@
 }
 
 .lg-inline .lg-backdrop {
-  z-index: 1;
+  z-index: 9000081;
 }
 
 .lg-inline .lg-outer {
-  z-index: 2;
+  z-index: 9000082;
 }
 
 .lg-inline .lg-maximize:after {
@@ -374,7 +374,7 @@
   -moz-transition: -moz-transform 0.35s ease-out 0s;
   -o-transition: -o-transform 0.35s ease-out 0s;
   transition: transform 0.35s ease-out 0s;
-  z-index: 1080;
+  z-index: 9000080;
   position: absolute;
   bottom: 0;
   right: 0;

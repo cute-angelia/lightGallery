@@ -36,7 +36,7 @@
   padding: 8px 10px 9px;
   position: absolute;
   top: 50%;
-  z-index: 1084;
+  z-index: 9000084;
   outline: none;
   border: none;
 }
@@ -184,7 +184,7 @@
 }
 
 .lg-toolbar {
-  z-index: 1082;
+  z-index: 9000082;
   left: 0;
   position: absolute;
   top: 0;
@@ -245,7 +245,7 @@
   font-size: 16px;
   padding: 10px 40px;
   text-align: center;
-  z-index: 1080;
+  z-index: 9000080;
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out 0s;
   -o-transition: opacity 0.2s ease-out 0s;
@@ -421,7 +421,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 9000050;
   text-align: left;
   opacity: 0.001;
   outline: none;
@@ -546,7 +546,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-outer .lg-item.lg-current {
-  z-index: 1060;
+  z-index: 9000060;
 }
 
 .lg-outer .lg-object {
@@ -592,7 +592,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1040;
+  z-index: 9000040;
   background-color: #000;
   opacity: 0;
   will-change: auto;
@@ -701,11 +701,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .lg-inline .lg-backdrop {
-  z-index: 1;
+  z-index: 9000081;
 }
 
 .lg-inline .lg-outer {
-  z-index: 2;
+  z-index: 9000082;
 }
 
 .lg-inline .lg-maximize:after {
@@ -720,7 +720,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   -moz-transition: -moz-transform 0.35s ease-out 0s;
   -o-transition: -o-transform 0.35s ease-out 0s;
   transition: transform 0.35s ease-out 0s;
-  z-index: 1080;
+  z-index: 9000080;
   position: absolute;
   bottom: 0;
   right: 0;

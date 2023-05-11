@@ -6,7 +6,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 1081;
+  z-index: 9000081;
   opacity: 0;
   visibility: hidden;
   will-change: visibility, opacity;

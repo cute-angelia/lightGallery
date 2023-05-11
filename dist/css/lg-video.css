@@ -23,11 +23,11 @@
   height: 100%;
   top: 0;
   bottom: 0;
-  z-index: 3;
+  z-index: 9000083;
 }
 
 .lg-outer .lg-video-poster {
-  z-index: 1;
+  z-index: 9000081;
 }
 
 .lg-outer .lg-has-video .lg-video-object {
@@ -75,7 +75,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 2;
+  z-index: 9000082;
   cursor: pointer;
   transform: translate(-50%, -50%) scale(1);
   will-change: opacity, transform;
